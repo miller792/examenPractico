@@ -24,3 +24,5 @@
 1417744465541	Move method 'getBalance'
 1417746447120	Move method 'endSale'
 1417746705417	Move method 'isNewSale'
+1417746820770	Move method 'getTotal'
+1417746837616	Move method 'getSale'

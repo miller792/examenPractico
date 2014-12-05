@@ -54,9 +54,4 @@ public class Sale {
 	    {
 	      return total();
 	    }
-
-	public Sale getSale()
-	{
-		return this;
-	}
 }

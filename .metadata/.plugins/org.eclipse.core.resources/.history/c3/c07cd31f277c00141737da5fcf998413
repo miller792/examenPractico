@@ -49,14 +49,4 @@ public class Sale {
 	{
 		becomeComplete();
 	}
-
-	public float getTotal()
-	    {
-	      return total();
-	    }
-
-	public Sale getSale()
-	{
-		return this;
-	}
 }

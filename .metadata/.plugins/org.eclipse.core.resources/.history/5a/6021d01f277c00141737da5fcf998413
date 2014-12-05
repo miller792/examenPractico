@@ -26,4 +26,14 @@ public class POST {
 	{
 		sale.makePayment( cashTendered );
 	}
+
+	public float getTotal()
+        {
+          return sale.total();
+        }
+
+	public Sale getSale()
+	{
+		return sale;
+	}
 }

@@ -20,13 +20,13 @@ class TestPost {
 		post.EnterItem(1,1);
 
 		System.out.println("Finalizo la venta...");
-		post.sale.getSale().endSale();
+		post.getSale().endSale();
 
-		System.out.println("Total de la venta..."+post.sale.getSale().total());
+		System.out.println("Total de la venta..."+post.getSale().total());
 
 		System.out.println("Pago con 650 pesos...");
 		post.makePayment(650);
 
-		System.out.println("La feria es: ..."+ post.sale.getSale().payment.getBalance(post.sale.getSale()));
+		System.out.println("La feria es: ..."+ post.getSale().payment.getBalance(post.getSale()));
 	}
 }
