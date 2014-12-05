@@ -14,7 +14,7 @@ public class POST {
 
 	public void EnterItem( int upc, int quantity )
 	{
-		if( productCatalog.isNewSale(this) )
+		if( isNewSale() )
 		{
 			sale = new Sale();
 		}
@@ -27,7 +27,12 @@ public class POST {
 		sale.makePayment( cashTendered );
 	}
 
-	public float getTotal()
+	private boolean isNewSale()
+	{
+		return ( sale == null ) || ( sale.isComplete() );
+	}
+
+        public float getTotal()
         {
           return sale.total();
         }
