@@ -4,6 +4,7 @@ import java.util.*;
 
 public class Sale {
 	private Vector<SaleLineItem> lineItems = new Vector<SaleLineItem>();
+	private Date date = new Date();
 	private boolean isComplete = false;
 	private Payment payment;
 
