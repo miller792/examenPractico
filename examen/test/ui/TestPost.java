@@ -27,6 +27,6 @@ class TestPost {
 		System.out.println("Pago con 650 pesos...");
 		post.makePayment(650);
 
-		System.out.println("La feria es: ..."+ post.getSale().getBalance());
+		System.out.println("La feria es: ..."+ post.getSale().payment.getBalance(post.getSale()));
 	}
 }

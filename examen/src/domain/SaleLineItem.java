@@ -1,5 +1,6 @@
 package domain;
 
+
 class SaleLineItem {
   private int	quantity;
   private	ProductSpecification	productSpec;

@@ -1,0 +1,18 @@
+package domain;
+
+class Payment implements amounth {
+  private float amount;
+
+  public Payment(float cashTendered) {
+    this.amount = cashTendered;
+  }
+
+  /* (non-Javadoc)
+ * @see domain.amounth#getAmount()
+ */
+@Override
+public float getAmount() {
+    return amount;
+  }
+
+}

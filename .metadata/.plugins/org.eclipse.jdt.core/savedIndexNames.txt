@@ -13,7 +13,6 @@ INDEX VERSION 1.126+/Users/Miller/examenPractico/.metadata/.plugins/org.eclipse.
 1384487945.index
 84777399.index
 1833648217.index
-1142405188.index
 770573466.index
 3004609673.index
 2545238116.index

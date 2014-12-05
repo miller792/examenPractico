@@ -1,0 +1,12 @@
+package domain;
+
+import java.util.Hashtable;
+
+public class ProductCatalogData {
+	public Hashtable<Integer, ProductSpecification> productSpecifications;
+
+	public ProductCatalogData(
+			Hashtable<Integer, ProductSpecification> productSpecifications) {
+		this.productSpecifications = productSpecifications;
+	}
+}

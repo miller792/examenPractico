@@ -14,3 +14,11 @@
 1417733945664	Delete element
 1417738688645	Infer generic type arguments
 1417738710629	Infer generic type arguments
+1417743162807	Move compilation unit
+1417743256291	Move compilation unit
+1417743269148	Encapsulate field 'date'
+1417743513090	Inline method 'ProductCatalog'
+1417743581042	Inline method 'ProductCatalog'
+1417743752136	Infer generic type arguments
+1417743766284	Encapsulate field 'date'
+1417744465541	Move method 'getBalance'

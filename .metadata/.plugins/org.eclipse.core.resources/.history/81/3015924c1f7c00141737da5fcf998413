@@ -1,0 +1,7 @@
+package domain;
+
+interface amounth {
+
+	public abstract float getAmount();
+
+}

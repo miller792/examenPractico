@@ -4,13 +4,9 @@ import java.util.*;
 
 public class Sale {
 	private Vector<SaleLineItem> lineItems = new Vector<SaleLineItem>();
+	private Date date = new Date();
 	private boolean isComplete = false;
-	private Payment payment;
-
-	public float getBalance()
-	{
-		return payment.getAmount() - total();
-	}
+	public Payment payment;
 
 	public void becomeComplete()
 	{
@@ -39,5 +35,13 @@ public class Sale {
 	public void makePayment( float cashTendered )
 	{
 		payment = new Payment( cashTendered );
+	}
+
+	public Date getDate() {
+		return date;
+	}
+
+	public void setDate(Date date) {
+		this.date = date;
 	}
 }

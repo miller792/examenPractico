@@ -11,4 +11,9 @@ class Payment {
     return amount;
   }
 
+public float getBalance(Sale sale)
+{
+	return getAmount() - sale.total();
+}
+
 }
