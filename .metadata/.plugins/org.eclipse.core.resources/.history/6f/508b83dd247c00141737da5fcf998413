@@ -1,0 +1,33 @@
+package domain;
+
+import java.util.Enumeration;
+
+public class Payment {
+  private float amount;
+
+  public Payment(float cashTendered) {
+    this.amount = cashTendered;
+  }
+
+  public float getAmount() {
+    return amount;
+  }
+
+public float getBalance(Sale sale)
+{
+	return getAmount() - sale.payment.total(sale);
+}
+
+public float total(Sale sale)
+{
+	float total = 0;
+	Enumeration<SaleLineItem>	e = sale.lineItems.elements();
+
+	while( e.hasMoreElements() )
+		{
+		total += e.nextElement().subtotal();
+		}
+	return total;
+}
+
+}

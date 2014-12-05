@@ -4,7 +4,7 @@ import domain.*;
 
 
 public class POST {
-	private ProductCatalog productCatalog;
+	public ProductCatalog productCatalog;
 	public Sale sale;
 
 	public POST( ProductCatalog catalog )

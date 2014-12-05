@@ -5,11 +5,16 @@ import domain.*;
 
 public class POST {
 	private ProductCatalog productCatalog;
-	public Sale sale;
+	private Sale sale;
 
 	public POST( ProductCatalog catalog )
 	{
 		productCatalog = catalog;
+	}
+
+	public void endSale()
+	{
+		sale.becomeComplete();
 	}
 
 	public void EnterItem( int upc, int quantity )

@@ -20,7 +20,7 @@ class TestPost {
 		post.EnterItem(1,1);
 
 		System.out.println("Finalizo la venta...");
-		post.getSale().endSale();
+		post.endSale();
 
 		System.out.println("Total de la venta..."+post.getSale().total());
 
